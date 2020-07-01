@@ -1,0 +1,21 @@
+.main {
+  padding: 1em;
+
+  .info-list {
+    margin-bottom: 1em;
+
+    .info {
+      display: flex;
+
+      .icon {
+        color: rgba(0, 0, 0, 0.54);
+      }
+
+      .link {
+        text-decoration: none;
+        margin-left: 1em;
+        color: #f76868;
+      }
+    }
+  }
+}

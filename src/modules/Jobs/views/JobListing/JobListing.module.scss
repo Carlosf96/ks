@@ -1,0 +1,15 @@
+@import 'src/styles/_variables.scss';
+
+.title-row {
+  margin-bottom: 16px;
+}
+
+.table-container {
+  margin: 2rem 0 0 0;
+}
+
+@media (min-width: $md) {
+  .table-container {
+    margin: 0 0 0 2rem;
+  }
+}

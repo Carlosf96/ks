@@ -1,0 +1,35 @@
+@import 'src/styles/_variables.scss';
+
+.aditional-details {
+  color: $font-color;
+}
+
+.column {
+  flex: 50%;
+}
+
+.column:first-child {
+  padding-right: 1rem;
+}
+
+.disabled-text {
+  color: $disabled-color;
+}
+
+.item {
+  margin: 1rem 0;
+}
+
+.job-details {
+  background-color: $background-color-card;
+  box-shadow: 0 0.25rem 0.25rem rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-flow: column;
+  margin: 1.5rem 0rem 1.5rem 0;
+  padding: 1rem 1rem 0;
+}
+
+.row {
+  display: flex;
+  width: 100%;
+}

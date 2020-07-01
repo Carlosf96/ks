@@ -1,0 +1,21 @@
+@import 'src/styles/variables';
+
+.score-button {
+  background: #ddd;
+  // border-radius: 5px;
+  // padding: 16px 0;
+  width: 50%;
+  height: 100%;
+  border-radius: 8px;
+}
+
+.score-button--checked {
+  background: $primary-color;
+  color: #fff;
+}
+
+.button-label {
+  font-size: 1.5em;
+  justify-content: center;
+  margin: 0.5em;
+}

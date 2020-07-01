@@ -1,0 +1,56 @@
+.settings-form-container {
+  justify-content: center;
+}
+
+.card {
+  max-width: 800px;
+  justify-content: center;
+}
+
+.form {
+  background-color: white;
+}
+
+.header-container {
+  background: gray;
+  display: flex;
+  height: 215px;
+  justify-content: center;
+}
+
+.text-wrapper {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.avatar-text {
+  color: white;
+  display: flex;
+  font-size: 50px;
+  justify-content: center;
+  padding: 65px;
+}
+
+.inputs-card {
+  flex-grow: 1;
+  padding: 50px;
+}
+
+.user-information-section {
+  color: black;
+  font-size: 16px;
+  margin: 0px 0px 0px -15px;
+}
+
+.account-section {
+  color: black;
+  font-size: 16px;
+  margin: 30px 0px 0px -15px;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: flex-end;
+  padding: 30px 35px;
+}

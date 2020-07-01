@@ -1,0 +1,29 @@
+@import 'src/styles/_variables.scss';
+
+.long-menu-position {
+  position: absolute;
+  top: 0.625rem;
+  right: 0.625rem;
+}
+
+.reviewer-feedback-header h5 {
+  display: inline-block;
+  margin: 0;
+}
+.reviewer-feedback-date {
+  color: gray;
+  display: block;
+}
+
+.feedback-k-avatar {
+  display: inline-block;
+  padding:0 0.625rem 0.625rem 0;
+  position: relative;
+  top: -4px;
+}
+
+@media (min-width: $sm) {
+  .display-small-inline-block {
+    display: inline-block;
+  }
+}

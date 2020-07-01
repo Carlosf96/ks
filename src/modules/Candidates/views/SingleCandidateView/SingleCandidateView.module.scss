@@ -1,0 +1,88 @@
+@import 'src/styles/variables';
+
+.container {
+  .header {
+    background-color: $black-light;
+    color: $white;
+    width: 100%;
+
+    &-icons {
+      margin: 4px 0;
+      display: flex;
+      justify-content: space-between;
+    }
+
+    &-candidate-info {
+      padding: 0;
+      margin: 0 auto 1em;
+      max-width: 1140px;
+
+      .candidate-full-name {
+        margin: 0 0.5em;
+      }
+
+      .candidate-position {
+        display: flex;
+        align-items: center;
+
+        .iconWork,
+        .iconEdit {
+          width: 20px;
+          color: $white;
+        }
+
+        .candidate-position-list {
+          margin: 0 0.5em;
+        }
+      }
+
+      .offerButton {
+        margin: 0 1em;
+        padding: 0.5em 1em;
+        background-color: #4caf50;
+        color: $white;
+        border-radius: 100px;
+        border: 1px solid #3e8e41;
+        cursor: pointer;
+      }
+    }
+
+    &-tabs {
+      margin: 0 auto;
+      max-width: 1140px;
+
+      .appBar {
+        background-color: $black-light;
+        box-shadow: none;
+        color: $white;
+      }
+    }
+  }
+
+  .main {
+    margin: 1em auto;
+
+    @media screen and (min-width: $md) {
+      max-width: 1140px;
+    }
+
+    .info {
+      padding: 1em 0 0 0;
+
+      @media screen and (min-width: $md) {
+        padding: 0 0 0 0.5em;
+      }
+    }
+
+    .components {
+      @media screen and (min-width: $md) {
+        padding: 0 0.5em 0 0;
+      }
+    }
+  }
+}
+
+.icon {
+  background-color: transparent;
+  color: white;
+}

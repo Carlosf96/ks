@@ -1,0 +1,15 @@
+@import 'src/styles/variables';
+
+.app-bar {
+  background-color: $primary-color !important;
+  z-index: $max-z-index;
+  transition: width 0.5s;
+}
+
+.menu-button {
+  margin-right: 36px;
+}
+
+.hide {
+  display: none;
+}

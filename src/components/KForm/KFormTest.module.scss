@@ -1,0 +1,16 @@
+.view {
+  display: grid;
+  justify-content: center;
+  margin: 50px;
+}
+
+.card {
+  background-color: white;
+  justify-content: center;
+  max-width: 800px;
+  padding: 30px 30px 50px 30px;
+}
+
+.submit-button {
+  margin-top: 20px;
+}

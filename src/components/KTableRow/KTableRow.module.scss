@@ -1,0 +1,5 @@
+@import 'src/styles/variables';
+
+.table-row:hover {
+  background-color: $hover-color;
+}

@@ -1,0 +1,43 @@
+@import 'src/styles/_variables.scss';
+
+.filter {
+  border-bottom: 2px solid $disabled-color;
+  color: $font-color;
+  cursor: pointer;
+  display: flex;
+  font-size: 1rem;
+  font-weight: bold;
+  padding: 1rem;
+}
+
+.filter:hover {
+  color: $primary-color;
+}
+
+.filter-active {
+  composes: filter;
+  background-color: $background-color-card;
+  color: $primary-color;
+}
+
+.filter-name {
+  flex: 70%;
+  text-align: start;
+}
+
+.filter-total {
+  flex: 30%;
+  margin-right: 1rem;
+}
+
+.filters-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+@media (min-width: $md) {
+  .filter-name {
+    text-align: end;
+  }
+}

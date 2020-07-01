@@ -1,0 +1,123 @@
+{
+  "candidatesData": [
+    {
+      "created": "Dec 12, 2019",
+      "employer": "Ksquare",
+      "name": "Leanne Graham",
+      "recruiter": "Fernanda Pérez",
+      "stage": "Hired"
+    },
+    {
+      "created": "Jul 12, 2019",
+      "employer": "Ksquare",
+      "name": "Ervin Howell",
+      "recruiter": "Fernanda Pérez",
+      "stage": "Rejected"
+    },
+    {
+      "created": "Jul 12, 2019",
+      "employer": "Ksquare",
+      "name": "Clementine Bauch",
+      "recruiter": "Alfredo Broggi",
+      "stage": "Rejected"
+    },
+    {
+      "created": "Jan 12, 2019",
+      "employer": "Ksquare",
+      "name": "Patricia Lebsack",
+      "recruiter": "Alfredo Broggi",
+      "stage": "Hired"
+    },
+    {
+      "created": "Aug 12, 2019",
+      "employer": "Ksquare",
+      "name": "Chelsey Dietrich",
+      "recruiter": "Alfredo Broggi",
+      "stage": "Prospective"
+    },
+    {
+      "created": "Nov 12, 2019",
+      "employer": "Ksquare",
+      "name": "Leopoldo_Corkery",
+      "recruiter": "Alfredo Broggi",
+      "stage": "Prospective"
+    },
+    {
+      "created": "Jun 12, 2019",
+      "employer": "Ksquare",
+      "name": "Kurtis Weissnat",
+      "recruiter": "Fernanda Pérez",
+      "stage": "Hired"
+    },
+    {
+      "created": "Feb 12, 2019",
+      "employer": "Ksquare",
+      "name": "Nicholas Runolfsdottir V",
+      "recruiter": "Fernanda Pérez",
+      "stage": "Active"
+    }
+  ],
+
+  "jobDetails": {
+    "additionalDetails": {
+      "groupHiringFor": null,
+      "practiceDepartment": null,
+      "priority": null
+    },
+    "aplicationForm": "Resume optional",
+    "department": "Digital",
+    "id": "00007",
+    "location": "Mérida, Yucatan, México",
+    "jobCreator": "Joselyn Martinez",
+    "jobType": "Permanent",
+    "jobTime": "Full time",
+    "salary": "55,000.00 - $65,000.00/year",
+    "status": "Open",
+    "title": "Java Architect - MID"
+  },
+
+  "hiringProcess": {
+    "template": null
+  },
+
+  "internalNotes": [],
+
+  "managers": [
+    {
+      "picture": "JM",
+      "name": "Juan Mendoza",
+      "role": "manager"
+    },
+    {
+      "picture": "JV",
+      "name": "José Vecino",
+      "role": "manager"
+    }
+  ],
+
+  "recruiters": [
+    {
+      "picture": "JM",
+      "name": "Joselyn Martínez",
+      "role": "recruiter"
+    },
+    {
+      "picture": "FP",
+      "name": "Fernanda Pérez",
+      "role": "recruiter"
+    },
+    {
+      "picture": "AB",
+      "name": "Alfredo Broggi",
+      "role": "recruiter"
+    }
+  ],
+
+  "interviewers": [
+    {
+      "picture": "RM",
+      "name": "Rodrigo Méndez",
+      "role": "interviewer"
+    }
+  ]
+}

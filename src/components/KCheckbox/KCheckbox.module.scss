@@ -1,0 +1,29 @@
+@import 'src/styles/variables';
+
+.container {
+  max-width: 132px;
+  max-height: 52px;
+  margin: 0;
+  padding: 8px;
+  display: flex;
+  align-items: center;
+  box-sizing: border-box;
+
+  .root {
+    margin: 0;
+    padding: 0;
+    width: 20px;
+    height: 20px;
+  }
+
+  .option {
+    margin-left: 8px;
+    color: $font-color;
+  }
+}
+
+.tab {
+  max-width: 264px;
+  border-radius: 4px;
+  background-color: $background-color-tab;
+}

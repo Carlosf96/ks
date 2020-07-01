@@ -1,0 +1,37 @@
+@import 'src/styles/_variables.scss';
+
+.hiring-team {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 1rem;
+}
+
+.hiring-team-container {
+  margin-top: 1.5rem;
+  padding: 0 1rem 0 2rem;
+}
+
+.item {
+  margin: 1rem 0;
+}
+
+.team {
+  margin-bottom: 0.5rem;
+}
+
+.team-picture {
+  border-radius: 50%;
+  height: 1.5rem;
+  width: 1.5rem;
+}
+
+.team-name {
+  margin-left: 0.5rem;
+}
+
+@media (max-width: $md) {
+  .hiring-team-container {
+    padding: 1rem 0rem;
+  }
+}

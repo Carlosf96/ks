@@ -1,0 +1,50 @@
+@import 'src/styles/_variables.scss';
+
+.feedbacks-container {
+  margin: 40px 40px;
+  max-width: $lg;
+}
+
+.add-feedback-button {
+  text-decoration: none;
+}
+
+.container-title {
+  margin-left: 40px;
+}
+
+.vote-container {
+  .votes {
+    list-style-type: none;
+
+    li:not(:last-child) {
+      padding-bottom: 1rem;
+    }
+    li:nth-child(odd) {
+      padding-bottom: 0rem;
+    }
+
+    .positive-vote-color {
+      color: green;
+    }
+    .neutral-vote-color {
+      color: gray;
+    }
+    .negative-vote-color {
+      color: red;
+    }
+  }
+}
+
+@media (min-width: $sm) {
+  .vote-container {
+    .votes {
+      display: grid;
+      grid-template-columns: 40% 60%;
+
+      li:nth-child(odd) {
+        padding-bottom: 1rem;
+      }
+    }
+  }
+}

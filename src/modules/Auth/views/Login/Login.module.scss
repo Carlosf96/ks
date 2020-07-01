@@ -1,0 +1,58 @@
+@import "src/styles/variables";
+
+.login {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  background-color: $background-container;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.card {
+  width: 100%;
+  padding: 24px 0;
+}
+
+.imgWrapper {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 16px;
+}
+
+.input {
+  margin-bottom: 16px;
+}
+
+.submit-wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.submit {
+  margin: 16px 0;
+}
+
+.link-wrapper {
+  text-align: center;
+}
+
+.link {
+  text-decoration: none;
+  color: $primary-color;
+  font-weight: bold;
+}
+
+.link:hover {
+  text-decoration: underline;
+}
+
+@media all and (min-width: $md) {
+  .card {
+    width: 50%;
+  }
+}

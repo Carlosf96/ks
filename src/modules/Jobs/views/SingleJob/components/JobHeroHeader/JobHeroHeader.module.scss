@@ -1,0 +1,74 @@
+@import 'src/styles/_variables.scss';
+
+.back-arrow-icon {
+  color: $font-color-header;
+  padding: 1rem;
+}
+
+.buttons-container {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+
+.hero-header {
+  background-color: #494949;
+  color: $font-color-header;
+  flex-flow: column;
+}
+
+.job-text {
+  color: $font-color-header;
+  margin: 0.25rem 0;
+}
+
+.location-text {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.options-icon {
+  color: $font-color-header;
+  margin: 0;
+  padding: 1rem;
+}
+
+.room-icon {
+  margin-right: 0.5rem;
+}
+
+.tab {
+  font-weight: bold;
+}
+
+.job-info {
+  align-items: center;
+  display: flex;
+  flex-flow: column;
+  margin: 0 auto;
+  max-width: $lg;
+  padding: 0 1rem;
+  width: 100%;
+}
+
+.tabs {
+  align-items: center;
+  display: flex;
+  flex-flow: column;
+  margin: 2rem auto 0 auto;
+  max-width: $lg;
+  width: 100%;
+}
+
+@media (min-width: $md) {
+  .job-info {
+    align-items: flex-start;
+  }
+
+  .tabs {
+    flex-flow: row;
+    padding: 0 1rem;
+  }
+}

@@ -1,0 +1,17 @@
+@import 'src/styles/_variables.scss';
+
+.main-container {
+  margin: auto;
+  max-width: $lg;
+  padding: 1rem;
+}
+
+.table-container {
+  margin: 2rem 0 0 0;
+}
+
+@media (min-width: $md) {
+  .table-container {
+    margin: 0 0 0 1rem;
+  }
+}
